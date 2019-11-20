@@ -107,6 +107,7 @@ public class FormularioController implements Initializable {
 
         if (!errorFormato) {
             try {
+                /*Alertas*/
                 Alert alert;
 
                 if ((textFieldNombre.getText() != null) && !textFieldNombre.getText().isEmpty()) {
